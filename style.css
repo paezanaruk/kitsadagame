@@ -1,0 +1,65 @@
+*{
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color:   rgb(240, 167, 57);
+}
+
+#Board{
+    padding-top: 10px;
+    margin: 10px;
+    border-bottom: 20px solid rgb(10, 145, 55);
+    background-color:  rgb(228, 197, 141);
+    border-left: 5px solid rgb(121, 85, 43);
+    border-right: 5px solid rgb(121, 85, 43) ;
+    border-top: 5px solid rgb(121, 85, 43) ;
+}
+
+#RetryButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #f44336; 
+    color: white; 
+    border-radius: 0;
+    cursor: pointer;
+    display: block; 
+}
+
+#RetryButton:hover {
+    background-color: #d32f2f; 
+}
+
+#Reload{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+}
+
+.title{
+    font-size: 50px;
+    background-color: rgb(151, 209, 219);
+    border: rgb(255, 255, 255) solid 3px;
+    margin-bottom: 20px;
+}
+
+.RestartButton{
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+}
+
+
+.RestartButton:hover {
+    background-color: #d32f2f; 
+}
